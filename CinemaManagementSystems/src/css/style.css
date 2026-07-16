@@ -1,0 +1,88 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background of the login panel */
+#login-panel {
+    background-color: #222;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Username and Password fields */
+#username-field, #password-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+}
+
+#username-field:focus, #password-field:focus {
+    outline: none;
+    border: 2px solid #00bcd4;
+}
+
+/* Login Button */
+#login-button {
+    background-color: #e50914;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#login-button:hover {
+    background-color: #d40812;
+}
+
+/* Image styling */
+#login-panel img {
+    margin-bottom: 20px;
+}
+/* Customer Dashboard */
+#customer-dashboard {
+    background-color: #222;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#customer-dashboard button {
+    background-color: #e50914;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#customer-dashboard button:hover {
+    background-color: #d40812;
+}
+
+#customer-dashboard h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#customer-dashboard img {
+    margin-right: 10px;
+}
